@@ -1,0 +1,27 @@
+.footer-container {
+  width: 100%;
+  background-color: #05151a;
+  color: #e9f3f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #e9f3f1;
+}
+.footer-container p {
+  width: 60%;
+}
+.footer-icons {
+  font-size: 30px;
+}
+.links {
+  display: flex;
+  gap: 10px;
+}
+@media (max-width: 480px) {
+  .footer-container p {
+    width: 95%;
+  }
+}
